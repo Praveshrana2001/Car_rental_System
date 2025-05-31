@@ -30,7 +30,7 @@ docker build -t car-rental-system:1.0 .
 docker run -it car-rental-system:1.0
 
 ### ☸️ Kubernetes Deployment
-✅ Step 1: Load Docker Image into Minikube (if using Minikube)
+✅ Step 1: Load Docker Image into Minikube
 ```bash
 minikube image load car-rental-system:1.0
 ```
